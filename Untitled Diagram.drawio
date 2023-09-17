@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T21:26:33.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wotyNAg7vvCHv__vqTU8" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T21:32:32.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FTFkKYr4D9SmOrLY_nSP" version="21.7.5" type="github">
   <diagram name="Page-1" id="_lqDyxtmHLjizQyb4mXX">
-    <mxGraphModel dx="954" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="xwPR3oCBbmqBj_QqqGPI-8" value="" style="group;fillColor=none;fillStyle=auto;strokeColor=none;rounded=0;glass=0;shadow=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="xwPR3oCBbmqBj_QqqGPI-68">
           <mxGeometry x="150" y="60" width="60" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="xwPR3oCBbmqBj_QqqGPI-7" value="API Gateway" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillStyle=zigzag-line;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="xwPR3oCBbmqBj_QqqGPI-8">
-          <mxGeometry y="143.30769230769232" width="60" height="40.38461538461539" as="geometry" />
         </mxCell>
         <mxCell id="xwPR3oCBbmqBj_QqqGPI-66" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#EEEEEE;fontColor=#FFFFFF;fillColor=#56517E;direction=south;" vertex="1" parent="xwPR3oCBbmqBj_QqqGPI-8">
           <mxGeometry x="-20" y="47.5" width="60" height="302.5" as="geometry" />
