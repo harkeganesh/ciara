@@ -8,11 +8,11 @@ Below is high level architecture of the system and for this project I have imple
 ![Image Alt Text](system_diagram.jpg)
 
 
-
-
 ## Getting Started
 
-These instructions will guide you through building and running the Ciara application using Docker Compose.
+These instructions will guide you through building and running the Ciara Test Orchestration application using Docker Compose.
+
+To orchstrate the test I have preconfigured the tests and assets in ciara.db so user has to schedule only these tests.
 
 ### Prerequisites
 
@@ -43,6 +43,7 @@ Once the services are up and running, you can access the Ciara application in yo
 
 ```arduino
 http://localhost:8004/
+http://localhost:8004/docs
 
 ```
 
