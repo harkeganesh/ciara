@@ -11,7 +11,7 @@ class Executor:
     def execute_test(self, schedule_id: int):
         with SessionLocal() as db:
             test_schedule = db.query(TestSchedule).get(schedule_id)
-            test = db.query(Test).filter(Test.id == test_schedule.id).first()
+            test = db.query(Test).filter(Test.id == test_schedule.test_id).first()
             
             if test_schedule and test:
                 test_schedule.status = "running"
