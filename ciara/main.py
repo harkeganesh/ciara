@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI
 from starlette import status
 
-from router import orchestrator
+from router import orchestrator, tests_router, assets_router
 from models.database import Base, engine
 
 
@@ -17,6 +17,8 @@ app = FastAPI(title="Ciara App",
               description="Test Orchastration Application.",
               version="0.0.1")
 
+app.include_router(tests_router.router)
+app.include_router(assets_router.router)
 app.include_router(orchestrator.router)
 
 

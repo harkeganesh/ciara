@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 db_session = Annotated[Session, Depends(get_db)]
 
 router = APIRouter(prefix="/orchestrator",
-                   tags=["TestOrchestrator"],
+                   tags=["Test Orchestrator"],
                    responses={404: {"description": "Not found."}})
 
 
